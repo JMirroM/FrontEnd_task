@@ -1,0 +1,566 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #fff;
+  border: none;
+  z-index: 1050;
+}
+
+.navbar .container-fluid3 {
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.navbar-header a {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.navbar .navbar-brand:hover {
+  color: #222;
+}
+
+.navbar-hover {
+  font-size: 16px;
+}
+
+li:nth-child(4) {
+  border: #d3d3d3 1px solid;
+  border-radius: 8px;
+}
+
+li:nth-child(4):hover {
+  border: #222 1px solid;
+}
+
+.navbar .navbar-right .navbar-hover:hover {
+  color: #222;
+}
+
+.container-fluid {
+  padding: 0 80px;
+}
+
+.container-fluid2 {
+  width: 100%;
+  height: 40px;
+  background-color: #222;
+  display: block;
+  transition: top 0.5s;
+  text-align: center;
+  top: 0;
+}
+
+.container-fluid2.hide {
+  top: -50px;
+}
+
+.container-fluid2 h5 {
+  font-weight: 700;
+  color: #fff;
+}
+
+.hero-banner {
+  padding: 100px 0px;
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.row {
+  margin: 25px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+}
+
+.col {
+  flex-basis: 100%;
+  width: 50%;
+  height: 600px;
+  box-sizing: border-box;
+  margin: auto;
+  text-align: left;
+}
+
+.row .col-right {
+  background-image: url(coffee.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.col:nth-child(1) {
+  background-color: #fafafa;
+  padding: 100px;
+  color: #222;
+}
+
+.col .today {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.col .product-title {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.price {
+  color: #3a9100;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.stock {
+  font-size: 1.5rem;
+  color: rgb(218, 0, 0);
+}
+
+.desc {
+  font-size: 1.5rem;
+  width: 70%;
+}
+
+.sales {
+  display: flex;
+}
+
+.sales-text {
+  font-size: 1.8rem;
+}
+
+.countdown {
+  margin-top: -10px;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.buy-button {
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+}
+
+.buy-button:hover {
+  background-color: transparent;
+  color: #222;
+  border: 1px solid #222;
+}
+
+.about {
+  width: 100%;
+  height: 70vh;
+  padding: 70px 0;
+}
+
+.about .row {
+  margin-top: -70px;
+}
+
+.col-right2 {
+  background-image: url(coffee-bean.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about .col:nth-child(1) {
+  background-color: #fff;
+  padding: 0 100px;
+}
+
+.about .col .welcome {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.about-desc {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.populars {
+  padding: 70px 0;
+  background-color: #222;
+}
+
+#popular2 {
+  padding-top: 150px;
+}
+
+.populars .row .col {
+  height: 400px;
+  width: 25%;
+  background-color: transparent;
+}
+
+.populars .row .col .col2 {
+  background-image: url(4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.populars .row .col .col3 {
+  background-image: url(1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.populars .row .col .col4 {
+  background-image: url(4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.popular-title {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #fff;
+  margin-top: -100px;
+  margin-bottom: 20px;
+}
+
+.popular-desc {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.button-shop {
+  background-color: transparent;
+  border: #fff solid 1px;
+  height: 50px;
+  width: 200px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.button-shop:hover {
+  border: none;
+  background-color: #fff;
+  color: #222;
+}
+
+.product,
+.product-price {
+  color: #fff;
+}
+
+.contact {
+  width: 100%;
+  height: 100vh;
+  margin-top: -50px;
+  background-color: #222;
+}
+
+.contact .col {
+  background-color: transparent;
+  padding: 40px;
+  color: #fff;
+}
+
+.contact .form-pic {
+  background-image: url(2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact textarea,input[type=text],input[type=email], select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0; 
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 18px;
+  box-sizing: border-box;
+  color: #222;
+}
+.button-submit{
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  height: 50px;
+  width: 200px;
+  border-radius: 6px;
+}
+.button-submit:hover{
+  background-color: #fff;
+  color: #222;
+}
+.contact-title{
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: -20px;
+}
+.contact-desc{
+  font-size: 14px;
+}
+.footer footer{
+    color: #222;
+    text-align: center;
+    padding: 4px;
+    font-size: 17px;
+}
+
+/* For devices up to 768px wide (e.g., tablets) */
+@media (max-width: 768px) {
+  .container-fluid2 {
+    display: none; /* Hide the container-fluid2 */
+  }
+  
+  .nav{
+    opacity: 0;
+  }
+  .hero-banner{
+    height: auto;
+    padding: 25px 0;
+  }
+  .col {
+    flex-basis: 50%;
+    height: auto;
+  }
+  .col:nth-child(1){
+    padding: 20px;
+    width: 500px;
+  }
+  .desc{
+    font-size: 13px;
+    width: 300px;
+  }
+  .hero-banner .product-title{
+    font-size: 30px;
+  }
+  .price{
+    font-size: 25px;
+  }
+  .sales-text{
+    font-size: 15px;
+  }
+  .countdown{
+    font-size: 20px;
+    margin-top: -5px;
+  }
+  .col-right {
+    opacity: 0;
+  }
+  .buy-button{
+    width: 100px;
+    height: 40px;
+  }
+
+  .populars{
+    height: auto;
+  }
+  .populars .row{
+    padding: 0;
+    flex-direction: column;
+  }
+  .populars .row .col{
+    width: 50%;
+  }
+
+
+.about {
+  height: auto;
+}
+.about .row {
+  flex-direction: column;
+  padding: 20px 0;
+}
+.about .col-right2 {
+  opacity: 0;
+ }
+ .about .col:nth-child(1) {
+  padding: 0 20px;
+  width: auto;
+}
+.about .col .welcome {
+  font-size: 25px;
+  margin-bottom: 20px;;
+}
+.about .row {
+  margin-top: 0;
+}
+
+
+#popular2 {
+  padding-top: 100px;
+}
+
+.contact {
+  height: auto;
+  margin-top: -26px;
+}
+.contact .row{
+  flex-direction: column;
+}
+
+.contact .col {
+  padding: 20px;
+}
+
+.contact .form-pic {
+  opacity: 0;
+}
+.contact .form{
+  width: 350px;
+}
+.contact textarea,input[type=text],input[type=email], select {
+  padding: 8px;
+  margin: 8px 0;
+  font-size: 15px;
+}
+.contact .button-submit{
+  width: 150px;
+}
+.footer footer{
+  font-size: 13px;
+}
+}
+  
+
+/* For devices between 768px and 992px wide (e.g., small desktops and tablets) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .container-fluid2 {
+    display: none; /* Hide the container-fluid2 */
+  }
+  .hero-banner{
+    height: 50vh;
+    padding: 50px 0;
+  }
+  .col:nth-child(1) {
+    padding: 50px;
+  }
+  .populars{
+    height: 50vh;
+  }
+  .populars .row{
+    padding: 50px 0;
+  }
+  
+.popular-title {
+  font-size: 25px;
+  margin-top: -50px;
+}
+
+.button-shop {
+  height: 40px;
+  width: 180px;
+  font-size: 15px;
+}
+.product{
+  font-size: 20px;
+}
+.product-price{
+  font-size: 18px;
+}
+
+.about {
+  padding: 70px 0;
+  height: 50vh;
+}
+
+.about .row {
+  margin-top: -70px;
+}
+
+.col-right2 {
+ width: auto;
+ height: 600px;
+}
+
+.about .col:nth-child(1) {
+  padding: 0 50px;
+}
+
+.about .col .welcome {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-desc {
+  font-size: 14px;
+}
+
+#popular2 {
+  padding-top: 0px;
+}
+
+.contact {
+  height: 50vh;
+  margin-top: -26px;
+}
+
+.contact .col {
+  padding: 40px;
+}
+
+.contact .form-pic {
+  width: auto;
+  height: 500px;
+}
+.contact textarea,input[type=text],input[type=email], select {
+  padding: 8px;
+  margin: 8px 0;
+  font-size: 15px;
+}
+.button-submit{
+  height: 40px;
+  width: 150px;
+}
+.button-submit:hover{
+  background-color: #fff;
+  color: #222;
+}
+.contact-title{
+  margin-top: 20px;
+  font-size: 25px;
+}
+.footer footer{
+  text-align: center;
+  padding: 2px;
+  font-size: 13px;
+}
+}
+
+/* For devices between 992px and 1200px wide (e.g., large desktops) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container-fluid2 {
+    display: none; /* Hide the container-fluid2 */
+  }
+}
+
+/* For devices larger than 1200px wide (e.g., extra-large desktops) */
+@media (min-width: 1200px) {
+  .container-fluid2 {
+    display: none; /* Hide the container-fluid2 */
+  }
+}

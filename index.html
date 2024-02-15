@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid container-fluid2">
+      <h5>Free Domestic Shipping on ALL Orders $20+ (Excludes Wholesales Orders)</h5>
+    </div>
+    <div class="container-fluid container-fluid3">
+      <div class="navbar-header">
+        <a class="navbar-brand" style="color: #222;" href="#home">CoffeeAdict</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="navbar-hover" href="#home">Coffee</a></li>
+        <li><a class="navbar-hover" href="#popular">Popular</a></li>
+        <li><a class="navbar-hover" href="#about">About us</a></li>
+        <li><a class="navbar-hover" href="#contact">Contact us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="hero-banner" id="home">
+      <div class="row">
+        <div class="col">
+          <h4 class="today">today only</h4>
+          <h2 class="product-title">Free Shipping on all coffee</h2>
+          <p class="desc">Upgrade your coffee routine with our highly acclaimed fan favorites. Excludes Flash Brew.</p>
+          <p class="price">$6.95</p>
+          <div class="sales"><p class="sales-text">Sales ends in:</p>&nbsp; <div class="countdown" id="countdown"></div></div>
+          <p class="stock">Hurry! Stock Running Low!</p>
+      <button class="buy-button">Buy now</button>
+        </div>
+        <div class="col col-right"></div>
+    </div>
+  </div>
+
+  <div class="populars" id="popular">
+    <div class="row">
+      <div class="col">
+        <h3 class="popular-title">
+          OUR Popular products
+        </h3>
+        <p class="popular-desc">Upgrade your coffee routine with our highly acclaimed fan favorites.</p>
+        <button class="button-shop">Shop best sellers</button>
+      </div>
+      <div class="col">
+        <div style="width: auto; height: 300px;" class="col2"></div>
+        <h3 class="product">Coffee Strong</h3>
+        <h4 class="product-price">$24.50</h4>
+      </div>
+      <div class="col">
+        <div style="width: auto; height: 300px;" class="col3"></div>
+        <h3 class="product">Coffee Mid Light</h3>
+        <h4 class="product-price">$15.50</h4>
+      </div>
+      <div class="col">
+        <div style="width: auto; height: 300px;" class="col4"></div>
+        <h3 class="product">Coffee Light</h3>
+        <h4 class="product-price">$12.50</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="about" id="about">
+      <div class="row">
+        <div class="col">
+          <h2 class="welcome">
+            Welcome to CoffeeAdict, where passion meets perfection in every cup.
+          </h2>
+          <p class="about-desc">At CoffeeAdict, we are more than just an online coffee store; we're your gateway to a world of rich flavors, enticing aromas, and unparalleled quality.
+            Driven by our love for coffee and a commitment to excellence, we curate only the finest beans from around the globe, ensuring that each sip delivers an unforgettable experience.
+          </p><br>
+          <p class="about-desc">
+            Our journey began with a simple mission: to share our passion for exceptional coffee with fellow enthusiasts like you. Whether you're a seasoned connoisseur or a curious beginner, we invite you to join us on this flavorful adventure.
+            Indulge your senses, awaken your palate, and discover a new appreciation for the art of coffee brewing with CoffeeAdict.</p>
+        </div>
+        <div class="col col-right2"></div>
+    </div>
+  </div>
+
+  
+  <div class="populars" id="popular2">
+    <div class="row">
+      <div class="col">
+        <h3 class="popular-title">
+          OUR Popular products
+        </h3>
+        <p class="popular-desc">Upgrade your coffee routine with our highly acclaimed fan favorites.</p>
+        <button class="button-shop">Shop best sellers</button>
+      </div>
+      <div class="col">
+        <div style="width: auto; height: 300px;" class="col2"></div>
+        <h3 class="product">Coffee Strong</h3>
+        <h4 class="product-price">$24.50</h4>
+      </div>
+      <div class="col">
+        <div style="width: auto; height: 300px;" class="col3"></div>
+        <h3 class="product">Coffee Mid Light</h3>
+        <h4 class="product-price">$15.50</h4>
+      </div>
+      <div class="col">
+        <div style="width: auto; height: 300px;" class="col4"></div>
+        <h3 class="product">Coffee Light</h3>
+        <h4 class="product-price">$12.50</h4>
+      </div>
+    </div>
+  </div>
+  
+  <div class="contact" id="contact">
+    <div class="contact-content">
+      <div class="row">
+        <div class="col form">
+          <h3 class="contact-title">BE THE FIRST TO KNOW!</h3>
+          <p class="contact-desc">
+            Contact us to receive first access to special offers and limited releases.
+          </p>
+          <input type="text" placeholder="ENTER YOUR NAME">
+          <input type="email" placeholder="ENTER YOUR EMAIL">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+          <button class="button-submit">Send Message</button>
+        </div>
+        <div class="col form-pic"></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <footer><h5>© 2024 COFFEEADICT, ALL RIGHTS RESERVED</h5></footer>
+  </div>
+
+<script>
+
+  const countdownDuration = 24 * 60 * 60 * 1000; 
+  const countdownEndDate = new Date().getTime() + countdownDuration;
+  const countdownTimer = setInterval(function() {
+    const now = new Date().getTime();
+    const distance = countdownEndDate - now;
+
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById('countdown').innerHTML = `${hours}h ${minutes}m ${seconds}s`;
+  
+    if (distance < 0) {
+      clearInterval(countdownTimer);
+      document.getElementById('countdown').innerHTML = 'Sale Ended!';
+    }
+  }, 1000);
+
+  window.addEventListener('scroll', function() {
+    var containerFluid2 = document.querySelector('.container-fluid2');
+    if (window.scrollY > 50) { 
+      containerFluid2.classList.add('hide');
+    } else {
+      containerFluid2.classList.remove('hide');
+    }
+  });
+</script>
+</body>
+</html>
